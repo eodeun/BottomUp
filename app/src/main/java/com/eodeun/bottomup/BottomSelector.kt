@@ -1,4 +1,4 @@
-package com.eodeun.dialogbottomsheet
+package com.eodeun.bottomup
 
 import android.content.Context
 import android.os.Bundle
