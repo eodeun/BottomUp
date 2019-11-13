@@ -1,8 +1,7 @@
 # BottomSheetDialog Calendar
 BottomSheetDialogCalendarExample  
+[![](https://jitpack.io/v/eodeun/BottomUp.svg)](https://jitpack.io/#eodeun/BottomUp)
 
-<img src="https://github.com/eodeun/BottomSheetDilogCalendarExample/blob/BottomSelector/img/run.gif?raw=true" width="200" height="400" />
-<img src="https://github.com/eodeun/BottomSheetDilogCalendarExample/blob/BottomSelector/img/run2.gif?raw=true" width="200" height="400" />
 
 
 1. Using Example
