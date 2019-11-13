@@ -3,7 +3,6 @@ BottomSheetDialogCalendarExample
 [![](https://jitpack.io/v/eodeun/BottomUp.svg)](https://jitpack.io/#eodeun/BottomUp)
 
 
-
 1. Using Example
 ```kotlin
 // onCaller
