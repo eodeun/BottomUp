@@ -1,9 +1,27 @@
-# BottomSheetDialog Calendar
-BottomSheetDialogCalendarExample  
+# BottomUp
+BottomSheetDialogCalendarExample Library
+  
 [![](https://jitpack.io/v/eodeun/BottomUp.svg)](https://jitpack.io/#eodeun/BottomUp)
 
+# How to use
+#### step 1.Add the JitPack repository to your build file  
+Add it in your root build.gradle at the end of repositories:  
+```gradle  
+allprojects {
+ repositories {
+  ...
+   maven { url 'https://jitpack.io' } 
+   }
+  }
+```
+#### step 2.Add the dependency  
+```gradle
+ implementation 'com.google.android.material:material:1.0.0'
+ implementation 'com.github.eodeun:BottomUp:0.1.1'
+```
 
-1. Using Example
+To get a Git project into your build:
+#### step3. Using in code 
 ```kotlin
 // onCaller
           btn.setOnClickListener {
@@ -28,35 +46,4 @@ BottomSheetDialogCalendarExample
                 }
             }.show(supportFragmentManager,"on the Bottom")
 
-```
-
-2. Depences
-```gradle
-dependencies {
-...
-  implementation 'com.google.android.material:material:1.0.0'
-  }
-```
-
-3. use Style and drawable
-```xml
-    <style name="BootomSelectDialogTheme" parent="Animation.Design.BottomSheetDialog">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@color/halftransparent</item>
-    </style>
-```
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FFFFFF" />
-    <stroke
-        android:width="3dip"
-        android:color="#B1BCBE" />
-    <corners android:topLeftRadius="50dp" android:topRightRadius="50dp"/>
-    <padding
-        android:bottom="0dip"
-        android:start="0dip"
-        android:end="0dip"
-        android:top="0dip" />
-</shape>
 ```
